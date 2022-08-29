@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>연습문제 1</title>
+    <link rel="styleSheet" href="../css/styleSheet.css">
+
+</head>
+
+<body>
+    <div id ="container">
+        <header class = "header">홍익 스케쥴러</header>
+        <aside class = "container1">
+            <form>
+                <h2>과목 선택</h2>
+                <ul>
+                    <li>
+                        <label for="subjectName">과목이름</label>
+                        <input type="text" id="subjectName" autofocus placeholder="공백없이 입력하세요">
+                        <input type="button" value="검색하기">
+                        <select id="subjectName">
+                            <option value="OS">운영체제</option>
+                            <option value="Algorithm">알고리즘</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="professorName">교수이름</label>
+                        <select id="professorName">
+                            <option value="oneKnife">김일도</option>
+                            <option value="princeSong">송하윤</option>
+                        </select>
+                        <input type="button" value="추가하기">
+                    </li>
+            
+                </ul>
+                <h2>공강 요일 선택</h2>
+               
+                <p>
+                    <label><input type="radio" name="monday" value="an"> 월공강</label>
+                    <label><input type="radio" name="friday" value="an"> 화공강</label>
+                    <label><input type="radio" name="wendesday" value="an"> 수공강</label>
+                    <label><input type="radio" name="thursday" value="an"> 목공강</label>
+                    <label><input type="radio" name="friday" value="an"> 금공강</label>
+
+                </p>
+
+                    
+                </p>
+                <br>
+                <h2>비고 </h2>
+                <label style="width: 200px; font-weight:bold"><input type="radio" name="noSpecial">특수 학과 과목 포함 </label>
+                <h3>
+                    <input type="submit" value="과목 추가">
+                </h3>
+            </form>
+        </aside>
+        <section class = "container2">
+            <ol>
+                <li>
+                    자료구조
+                </li>
+                <li>
+                    운영체제
+                </li>
+                <li>
+                    알고리즘
+                </li>
+                <li>
+                    프로그래밍 언어
+                </li>
+                <li>
+                    데이터 통신
+                </li>
+                <li>
+                    네트워크 프로그래밍
+                </li>
+                <li>
+                    소프트웨어공학
+                </li>
+            </ol>
+        </section>
+        <footer class = "container3">
+            시간표
+        </footer>
+    </div>
+
+</body>
+
+</html>
